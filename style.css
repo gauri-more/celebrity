@@ -1,0 +1,234 @@
+
+@font-face {
+    font-family: myraiadProSemiBold;
+    src: url(font/MyriadPro-Regular.woff);
+}
+@font-face {
+    font-family: robotoBold;
+    src: url(font/roboto-bold-webfont.woff);
+    
+}
+@font-face {
+    font-family: raleway;
+    src: url(font/raleway-regular-webfont.woff);
+}
+nav .nav-link {
+color: white;
+}
+
+nav .nav-link:hover {
+    color: rgb(199, 193, 193);
+}
+.logo{
+    font-family:myraiadProSemiBold;
+    font-style: italic;
+}.oneslide img {
+	width: 100%;
+	display: block;
+	position: relative;
+	
+}
+.slidecon {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40%;
+	text-align: center;
+}
+.slidecon p {
+	font-size: 60px;
+	color: white;
+	line-height: 60px;
+	font-family: myraiadProSemiBold;
+}
+.slidecon h3 {
+	font-size: 120px;
+	line-height: 60px;
+	font-weight: 100;
+	letter-spacing: 0.25px;
+	color: white;
+	padding: 0px 0 20px;
+	font-family: myraiadProSemiBold;
+}
+.slidecon h3 span {
+	font-weight: 300;
+}
+.slidecon a {
+    width: 249px;
+    color: #fff;
+    border-radius: 50px;
+    display: block;
+    background: #e85408;
+    margin: 20px auto;
+    padding: 8px 0;
+    font-size: 20px;
+}
+.slidecon a:hover {
+	opacity: 0.8;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 52px;
+    background: rgba(0, 0, 0, 0.5);
+	height: 70px;
+    padding: 10px 50px;
+	width: 100%;
+	z-index: 9997;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+header.sticky {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0.05);
+	
+}
+.aboutus {
+	text-align: center;
+    font-family:robotoBold;
+    color: rgb(44, 148, 13);
+    font-size: 60px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  
+}
+h2.heading-about {
+    font-size: 45px!important;
+}
+
+.sub-text-about {
+    font-family:robotoBold;
+    font-size: 30px;
+    color: #000;
+}
+.about-content {
+    background: #73ac91;
+    margin: 67px 0px;
+    /* width: 90%; */
+}
+.see-more a, .see-more a:hover, .see-more a:active {
+    color: #3a7a57;
+    text-decoration: none;
+    font-family: robotoBold;
+   
+}
+.about-bg {
+	vertical-align: middle!important;
+    vertical-align: text-bottom;
+    height: 431px;
+    position: relative;
+    top: 43px;
+    left: 23px;
+   
+}
+.heading-about-inner span {
+    color: #3fad69;
+    font-family: raleway;
+
+}
+.inner-div-txt p {
+    font-size: 19px;
+    line-height: 1.2;
+}
+.inner-div-txt {
+    background: #ebd4d4;
+    margin: 31px -5px 32px 10px;
+    padding: 10px 43px;
+    position: relative;
+    left: -106px;
+}
+.aboutus a {
+	width: 180px;
+	border: 2px solid #fff;
+	color: #fff;
+	background: #17daa3;
+	border-radius: 50px;
+	display: block;
+	margin: 100px auto 0;
+	padding: 8px 0;
+}
+.aboutus a:hover {
+	background: #000;
+	color: #fff;
+	transition: all 0.5s;
+}
+.movies img{
+    height: 200px;
+}
+#myVideo {
+    width: 100%; 
+  }
+  .w-98 {
+      width: 99.1%;
+  }
+  .contact {
+    background-image: url(./images/backgrdimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.contact-heading {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: myraiadProBlack;
+    padding:60px 0px;
+}
+.contact .form-group input {
+    color: rgb(29, 25, 25);
+    background: #fff;
+       border-radius: inherit;
+    height: 51px;
+    padding: 28px;
+    font-family: raleway;
+    font-size: 17px;
+}
+.contact .form-group textarea {
+	color: rgb(29, 25, 25);
+    background: #fff;
+    border: none;
+    padding: 28px;
+    font-family: raleway;
+    font-size: 17px;
+    border-radius: inherit;
+}
+.btn.btn-main, .btn.btn-main:hover, .btn.btn-main:active, .btn.btn-main:focus{
+    color: #fff;
+    background: #e85408;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin: 44px;
+    width: 40%;
+    padding: 11px;
+}
+.contact-details {
+	color: #fff;
+	font-size: 18px;
+    margin: 108px;
+}
+.contact-details span{
+    color: #e85408;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.contact .center-block {
+	vertical-align: middle;
+}
+footer{
+    background-color: rgb(252, 244, 244);
+    height: 60px;
+}
+.responsive-foot li i{
+    font-size: 30px;
+}
+.responsive-foot{
+justify-content: end;
+}
+
+.bx-viewport {
+    max-height: 840px;
+}
